@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="/"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="bi bi-x-lg" onClick="hideMenu()"></i>
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onClick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+
+    <!-- BLog Page Content -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Programs For 2023</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+            similique eum ad, culpa eligendi repudiandae tempore aliquam
+            veritatis ducimus minima quia reprehenderit architecto, ex
+            perspiciatis corrupti libero alias iste explicabo necessitatibus!
+            Odit, nesciunt ex beatae explicabo tempora fugiat perspiciatis sit
+            veritatis, quis deserunt iste vitae!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            distinctio, dignissimos id natus tempore illum ullam itaque, optio
+            beatae est repellendus veritatis doloremque, quos vitae! Architecto
+            reiciendis cum, eaque eligendi rem quam tempora ipsam nobis corrupti
+            minima deleniti eius soluta veritatis, eos nesciunt consequuntur.
+            Nihil reiciendis aperiam harum id aut.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+            itaque veniam eos optio commodi omnis id. Fuga maiores deleniti
+            explicabo iusto dicta sed nemo quis, voluptates, magnam quas beatae
+            ducimus nesciunt, sequi quaerat vel. Molestiae, sed quos sit
+            explicabo illum tenetur eveniet inventore ex autem soluta dicta
+            ducimus totam velit.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, velit
+            deserunt repudiandae hic unde nihil quam doloribus amet delectus,
+            magnam numquam non labore, illum repellat? Eaque, fuga sed! Enim,
+            eum! Saepe laboriosam optio sequi pariatur suscipit laudantium illum
+            nemo odio.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="" class="comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Email">
+              <textarea name="" id="" cols="30" rows="5" placeholder="Your comment..."></textarea>
+              <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science<span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>IoT</span>
+                <span>16</span>
+            </div>
+            <div>
+                <span>Softwares</span>
+                <span>18</span>
+            </div>
+            <div>
+                <span>Programming</span>
+                <span>7</span>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+        doloremque neque exercitationem quisquam<br />dolores esse autem
+        provident quod dolore eius?
+      </p>
+      <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-twitter"></i>
+      </div>
+      <p>Made with <i class="bi bi-heart-fill"></i> by Easy Tutorials</p>
+    </section>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
